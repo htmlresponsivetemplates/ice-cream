@@ -1,0 +1,318 @@
+nav{
+    margin-top: 40px;
+    font-family: 'Viga', sans-serif;
+    padding-bottom: 40px;   
+}
+
+h1, nav h2{
+    display: none;
+}
+
+a.navbar-brand{
+    font-size: 68px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li{
+    font-size: 20px;
+    margin-top: 8%;
+    padding: 0 20px
+}
+
+nav ul li:hover{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    color: #000;
+}
+
+.carousel slide{
+    margin-top: 48px;
+}
+
+.carousel-inner .carousel-item img{
+    height: 616px;
+    width: 100%;
+}
+
+#about,
+#samples,
+#contact{
+    padding-top: 80px;
+}
+
+#offert > h2{
+    display: none
+}
+
+#about > h2{
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    font-size: 42px;
+}
+
+#about > p{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777777;
+    font-size: 20px;
+}
+
+.about-info{
+    margin-top: 60px;
+    text-align: center;
+    padding: 24px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777777;
+    border: 1px solid #777777;
+    border-radius: 12px;
+}
+
+.about-services{
+    padding-top: 60px;
+}
+
+.box-content{
+    text-align: center;
+}
+
+.box-content i{
+    font-size: 42px;
+    padding: 25px 0;
+    color: #777777;
+}
+
+.box-content h4{
+    font-size: 22px;
+    font-family: 'Viga', sans-serif;
+    padding: 6px 0;
+}
+
+.box-content p{
+    color: #777777;
+    font-size: 15px;
+}
+
+.about-services .col-xl-3{
+    border-right: 1px solid #777777;
+}
+
+.about-services .col-xl-3:last-child{
+    border-right: none;
+}
+
+#subscribe{
+    margin-top: 60px;
+    padding-top: 20px;
+    background-image: url(../img/sn-background.jpg);
+    /*background-image: url(../img/sky.jpg);*/
+    height: auto;
+    width: auto;
+}
+
+#subscribe > h2{
+    display: none;
+}
+
+#subscribe h4{
+    padding: 60px 0 20px 0;
+    font-size: 44px;
+    font-family: 'Viga', sans-serif;
+    color: #0275d8;
+}
+
+.subscribe-info{
+    padding: 40px 0;
+    color: #fff;
+}
+
+.subscribe-info p{
+    color: #22282f;
+}
+
+.subscribe-me{
+    background-color: #22282f;
+    text-align: center;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+@media(min-width: 544px){
+    .form-inline .form-control {
+        width: 30%;
+    }
+}
+
+#samples > h2,
+#pricing > h2,
+#contact > h2{
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    font-size: 42px;
+}
+
+#samples > p,
+#pricing > p,
+#contact > p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777777;
+    font-size: 20px;  
+}
+
+#pricing{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tables-wrapper{
+    padding: 20px 0 80px 0;
+}
+
+.pricing-table {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.table-header {
+    font-family: 'Viga', sans-serif;
+    font-size: 40px;
+    padding-top: 14px;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+.content {
+    width: 290px;
+    border-radius: 0px 0px 5px 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+    color: #0d0d0d;
+    border: 1px solid #777777;
+    border-radius: 20px;
+}
+
+.price {
+    border-bottom: 1px solid #777777;
+    padding: 20px 0 42px 0;
+}
+
+.content .price > p {
+    font-size: 14px;
+    padding: 0px;
+    margin: -8px;
+}
+
+.offert-list{
+    display: block;
+}
+
+.offert-list ul {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #777777;
+    padding: 20px 0 4px 0;
+}
+
+.pricing-table .btn{
+    margin-top: -24px;
+}
+
+.offert-list ul li{
+    padding: 5px 0;
+}
+
+.box-img{
+    padding-bottom: 40px;
+}
+
+#five .form-control{
+    margin-top: 10px;
+    height: 50px;
+    border: none;
+    color: #777777;
+    border-bottom: 1px solid #777777;
+    font-size: 24px;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #22282f;
+    padding: 48px 0 20px 0;
+}
+
+footer .info h4{
+    color: #fff;
+    font-family: 'Viga', sans-serif;
+}
+
+footer p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer .info p{
+    color: #777777;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+footer .contact i{
+    font-size: 34px;
+    color: #fff;
+    padding-right: 12px;
+}
+
+footer .contact p{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 18px;
+}
+
+.social-media{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.social-media .col-xl-4 p{
+    color: #fff;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 18px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 34px;
+}
+
+@media(max-width: 767px){
+    footer .info{
+        margin-top: 34px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 767px){
+    .navbar > ul{
+        text-align: center;
+    }
+
+    nav > div > ul > li:nth-child(1){
+	margin-left: 20px;
+    }
+
+    .navbar-nav .nav-item{
+        float: none;
+    }
+}
+
+
